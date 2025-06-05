@@ -1,9 +1,10 @@
+import Catalog from "./routes/Catalog"
 
-function App() {
+export default function App() {
 
   return (
-   <h1>Bom dia</h1>
+    <Catalog />
   )
 }
 
-export default App
+ 
